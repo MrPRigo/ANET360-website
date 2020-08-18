@@ -1,0 +1,10 @@
+@font-face {
+    font-family: thinMetro;
+    src: url(../font/metropolis/Metropolis-Light.otf);
+    font-family: regularMetro;
+    src: url(../font/metropolis/Metropolis-Regular.otf);
+    font-family: mediumMetro;
+    src: url(../font/metropolis/Metropolis-SemiBold.otf);
+    font-family: boldMetro;
+    src: url(../font/metropolis/Metropolis-Bold.otf);
+  }
