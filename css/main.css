@@ -10,7 +10,30 @@
   }
 
 
-  body{
-      line-height: 1;
-      font-family: 'Metropolis', sans-serif;
-  }
+body{
+    line-height: 1;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.container{
+    padding: 4rem;
+}
+
+
+
+#logo{
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+h4{
+    font-size: 23px;
+}
+

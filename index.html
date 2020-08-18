@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img id="logo" src="images/logo.png" alt="logo-img">
+                <h4>Welcome back!</h4>
+                <h4>Enter your e-mail and <br>password to continue.</h4>
+                <form id="emailForm">
+                    <label for="email">Email address:</label><span class="caseSensitive">Note: Email Address Case Sensitive</span>
+                    <input type="email" id="email">
+                    <label for="pass">Password:</label>
+                    <input type="password">
+                    <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+                    <input type="submit" value="Sign In" onclick="lsRememberMe()">
+                </form>
+            </div>
+
+            <div class="col">
+                <img src="images/vr-surround.png" alt="vr-surround-img">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
