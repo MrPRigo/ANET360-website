@@ -1,33 +1,38 @@
 @font-face {
     font-family: thinMetro;
     src: url(../font/metropolis/Metropolis-Light.otf);
+}
+@font-face {
     font-family: regularMetro;
     src: url(../font/metropolis/Metropolis-Regular.otf);
+}
+@font-face {
     font-family: mediumMetro;
     src: url(../font/metropolis/Metropolis-SemiBold.otf);
+}
+@font-face {
     font-family: boldMetro;
     src: url(../font/metropolis/Metropolis-Bold.otf);
-  }
+}
 
 
 body{
-    line-height: 1;
+    line-height: 1.2;
     font-family: 'Metropolis', sans-serif;
     font-size: 15px;
+    background-color: #666;
 }
-
-
-
-
-
-
 
 .container{
     padding: 4rem;
+    background-color: white;
 }
-
-
-
+.row{
+    display: flex;
+}
+.center{ /* Use only with .row for center contents */
+    margin: auto;
+}
 #logo{
     width: 150px;
     margin-bottom: 1rem;
