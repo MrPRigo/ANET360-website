@@ -23,20 +23,58 @@ body{
     background-color: #666;
 }
 
+
+.small-spaceing{
+    margin-bottom: 1.2rem;
+}
+
+
 .container{
     padding: 4rem;
     background-color: white;
 }
+
+
+.step-back-container h3{
+    padding-left: 23px;
+}
+
 .row{
     display: flex;
 }
+
+
 .center{ /* Use only with .row for center contents */
     margin: auto;
 }
+
+
+img {
+    width: 100%;
+}
+
+
+#icon{
+    width: 3%;
+    position: absolute;
+    top: 1px;
+}
+
+.step-back-container{
+    position: relative;
+}
+
+
 #logo{
     width: 150px;
-    margin-bottom: 1rem;
 }
+
+
+h3{
+    font-size: 18px;
+    font-family: regularMetro;
+}
+
 
 h4{
     font-size: 23px;
