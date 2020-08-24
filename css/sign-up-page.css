@@ -1,0 +1,28 @@
+.white-container-bg{
+    background-color: white;
+}
+.fontManipulation{
+    font-family: regularMetro;
+    font-size: 18px;
+}
+
+.sign-up-img-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.sign-up-img{
+    width: 70%;
+}
+.signUpSubmit{
+    margin-left: 2rem;
+    margin-top: .5rem;
+}
+
+#rememberMeSignUp{
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+#contactNumber,
+#drivingLicenseNumber{
+    margin-top: .2rem;
+}

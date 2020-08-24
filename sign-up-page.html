@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANET360 - Sign up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sign-up-page.css">
+</head>
+<body>
+    <div class="container grey-bg">
+        <img id="logo" src="images/logo.png" alt="logo-img" class="medium-spaceing">
+        <div class="row white-container-bg center-vertical">
+            <div class="col-lg-6">
+                <p class="fontManipulation">Name Of The Event:</p>
+                <p class="fontManipulation">Trainer Name:</p>
+                <p class="fontManipulation">Time:</p>
+                <p class="fontManipulation">Date:</p>
+            </div>
+            <div class="col-lg-6 sign-up-img-container">
+                <img class="sign-up-img" src="images/sign-up-img.jpg" alt="sign-up-img">
+            </div>
+
+        </div>
+        <div class="row medium-spaceing-top">
+            <div class="col-xs-12 col-lg-6">
+                <form id="signUpForm">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName">
+                    <label for="dateOfBirth">Date Of Birth</label>
+                    <input type="date" id="dateOfBirth">
+                    <label for="employeeId">Employee ID</label>
+                    <input type="text" id="employeeId">
+                </form>
+            </div>
+
+            <div class="col-xs-12 col-lg-6 medium-spaceing pull-right">
+                <form id="signUpForm">
+                        <label for="email">Email address:</label><span class="caseSensitive">Note: Email Address Case Sensitive</span>
+                        <input type="email" id="email">
+                        <label for="contactNumber">Contact Number</label>
+                        <input type="text" id="contactNumber">
+                        <label for="drivingLicenseNumber">Driving License Number</label>
+                        <input type="text" id="drivingLicenseNumber">
+                </form>
+            </div>
+            <div class="flex-container center-horizontal center-vertical">
+                <input class="signUpCheckbox" type="checkbox" value="lsRememberMe" id="rememberMeSignUp"> <label for="rememberMe">Remember me</label>
+                <input class="signUpSubmit" type="submit" value="Sign Up">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
